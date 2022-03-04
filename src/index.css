@@ -293,3 +293,13 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+#my-name {
+  padding: 20px;
+  font-size: 2em;
+  background: #D0021B;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
