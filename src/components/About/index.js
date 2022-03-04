@@ -5,8 +5,8 @@ function About() {
 
   return (
     <section className="my-5" >
+      <img src={coverImage} id="my-background" className="my-2" style={{ width: "100%" }} alt="cover" />
       <h1 id="about">About me</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
           Hello! Thanks for visiting this site. Let me take a few sentences to help you understand who I am. I was born

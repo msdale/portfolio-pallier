@@ -35,6 +35,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
+  background-image: url("./assets/cover/cover-image.jpg");
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -46,7 +47,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Poiret One', cursive;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -297,9 +299,21 @@ a {
 #my-name {
   padding: 20px;
   font-size: 2em;
-  background: #D0021B;
+  /*background: #D0021B;*/
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#my-profile {
+  object-fit: scale-down;
+  width: 100px;
+  height: 100px;
+}
+
+#my-background {
+  object-fit:cover;
+  width: 500px;
+  height: 500px;
 }
