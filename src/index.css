@@ -2,7 +2,7 @@
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  /*padding: 50px 30px;*/
 }
 :root {
   --primary: #8c54ff;
@@ -35,7 +35,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
-  background-image: url("./assets/cover/cover-image.jpg");
+  /*background-image: url("./assets/cover/cover-image.jpg");*/
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -179,6 +179,14 @@ textarea {
   flex-wrap: wrap;
 }
 
+.center-content {
+  justify-content: center;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -195,6 +203,11 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+}
+
+.mx-5 {
+  margin-right: var(--spacing-five);
+  margin-left: var(--spacing-five);
 }
 
 .my-1 {
@@ -297,13 +310,13 @@ a {
 }
 
 #my-name {
-  padding: 20px;
+  /*padding: 20px;*/
   font-size: 2em;
   /*background: #D0021B;*/
   width: 100%;
-  position: absolute;
+  /*position: absolute;
   top: 0;
-  left: 0;
+  left: 0;*/
 }
 
 #my-profile {
@@ -314,6 +327,6 @@ a {
 
 #my-background {
   object-fit:cover;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
